@@ -1,0 +1,10 @@
+.dados-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados-footer-img{
+    width: 150px;
+    height: 110px;
+}
