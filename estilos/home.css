@@ -1,11 +1,23 @@
 #home{
     height: 100vh;
+    display: flex;
+}
+.esquerda-home{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.esquerda-home-texto{
+    font-size: 4rem;
 }
 
 .esquerda-home-skills{
     display: flex;
-    gap: 20px;
-    
+    justify-content: center;
+    gap: 50px;
 }
 
 .esquerda-home-skills-tecnologia{
@@ -16,6 +28,18 @@
 }
 
 .esquerda-home-skills-tecnologia-icon{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.direita-home{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direita-home-imagem{
+    width: 350px;
+    height: 350px;
 }
