@@ -1,7 +1,10 @@
-@import "./estilos/cores.css";
-@import "./estilos/header.css";
-@import "./estilos/home.css";
-@import "./estilos/footer.css";
+@import "./estilos/basico/cores.css";
+@import "./estilos/basico/header.css";
+
+@import "./estilos/secoes/home.css";
+@import "./estilos/secoes/sobre.css";
+
+@import "./estilos/basico/footer.css";
 
 *{
     margin: 0;
