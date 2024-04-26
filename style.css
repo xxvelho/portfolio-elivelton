@@ -1,4 +1,5 @@
 @import "./estilos/basico/cores.css";
+@import "./estilos/basico/alinhamento.css";
 @import "./estilos/basico/header.css";
 
 @import "./estilos/secoes/home.css";
@@ -18,4 +19,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }

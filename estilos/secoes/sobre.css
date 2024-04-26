@@ -1,0 +1,25 @@
+#sobre{
+    height: 100vh;
+    display: flex;
+}
+
+.esquerda-sobre{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.esquerda-sobre-imagem{
+    border-radius: 50%;
+    box-shadow: 0 10px 30px var(--secondary-color);
+}
+
+.direita-sobre{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+}

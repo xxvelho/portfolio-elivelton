@@ -2,12 +2,14 @@
     height: 100vh;
     display: flex;
 }
+
 .esquerda-home{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+    border: 1px solid red;
 }
 
 .esquerda-home-texto{
@@ -37,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid red;
 }
 
 .direita-home-imagem{
