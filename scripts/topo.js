@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     botaoVoltarAoTopo.onclick = function() {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth' // Rolar suavemente
+            behavior: 'smooth'
         });
     };
 });
