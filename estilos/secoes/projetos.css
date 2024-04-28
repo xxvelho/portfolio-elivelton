@@ -1,0 +1,78 @@
+#projetos{
+    height: 100vh;
+    display: flex;
+}
+
+.projetos-dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10rem;
+    border: 1px solid red;
+}
+
+.projetos-container{
+    display: flex;
+    gap: 4rem;
+}
+
+.projetos-container-card {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border: 1px solid var(--tertiary-color);
+    overflow: hidden;
+}
+
+.projetos-container-card img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.descricao-projeto {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.3s;
+}
+
+.botoes {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: bottom 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.projetos-container-card:hover .descricao-projeto {
+    opacity: 0;
+}
+
+.projetos-container-card:hover .botoes {
+    bottom: 4rem;
+}
+
+.botao-ancorar {
+    padding: 5px 10px;
+    border-radius: 2rem;
+    background-color: var(--tertiary-color);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.botao-ancorar:hover {
+    background-color: var(--quaternary-color);
+}
