@@ -1,0 +1,33 @@
+#contatos{
+    height: 100vh;
+    display: flex;
+}
+
+.contatos-dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.contatos-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 5%;
+}
+
+.contatos-container a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.contatos-icone{
+    width: 2rem;
+    color: var(--link-color);
+}

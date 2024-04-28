@@ -1,6 +1,5 @@
 .menu-navegacao{
     padding-top: 20px;
-    font-size: 2rem;
 }
 
 .menu-navegacao-links{
@@ -12,5 +11,5 @@
 
 .menu-navegacao-links-link>a{
     text-decoration: none;
-    color: white;
+    color: var(--link-color);
 }

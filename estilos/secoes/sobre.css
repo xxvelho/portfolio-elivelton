@@ -6,14 +6,21 @@
 .esquerda-sobre{
     width: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    gap: 2rem;
+    padding: 5%;
 }
 
 .esquerda-sobre-imagem{
     border-radius: 50%;
-    box-shadow: 0 10px 30px var(--secondary-color);
+    box-shadow: 0 10px 30px var(--tertiary-color);
+}
+
+.esquerda-sobre-links{
+    display: flex;
+    gap: 3rem;
 }
 
 .direita-sobre{
@@ -21,5 +28,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
+    padding: 5%;
+}
+
+.direita-sobre-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }

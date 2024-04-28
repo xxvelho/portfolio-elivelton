@@ -1,9 +1,11 @@
 @import "./estilos/basico/cores.css";
 @import "./estilos/basico/alinhamento.css";
+@import "./estilos/basico/padrao.css";
 @import "./estilos/basico/header.css";
 
 @import "./estilos/secoes/home.css";
 @import "./estilos/secoes/sobre.css";
+@import "./estilos/secoes/contatos.css";
 
 @import "./estilos/basico/footer.css";
 
