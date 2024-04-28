@@ -1,0 +1,15 @@
+#voltarAoTopo {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+    color: var(--tertiary-color);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#voltarAoTopo:hover {
+    color: var(--quaternary-color);
+}
