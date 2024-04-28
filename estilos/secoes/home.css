@@ -30,6 +30,16 @@
     height: 50px;
 }
 
+.esquerda-home-skills-tecnologia-nome {
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+}
+
+.esquerda-home-skills-tecnologia:hover .esquerda-home-skills-tecnologia-nome {
+    opacity: 1;
+}
+
 .direita-home{
     width: 50%;
     display: flex;
