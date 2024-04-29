@@ -20,7 +20,7 @@
     width: 50%;
     box-sizing: border-box;
     padding: 1rem;
-    transition: transform 0.5s ease;
+    transition: transform 1.5s ease;
     display: flex;
     justify-content: center;
     align-items: center;
