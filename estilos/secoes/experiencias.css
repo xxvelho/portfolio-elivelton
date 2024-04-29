@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    text-align: justify;
 }
 
 .experiencias-container {
@@ -30,6 +31,14 @@
 
 .experiencia img{
     height: 100px;
+}
+
+.experiencia-img{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
 }
 
 .experiencia-direita {

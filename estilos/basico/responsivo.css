@@ -1,0 +1,32 @@
+@media(max-width: 1000px){
+    .esquerda-home-skills{
+        flex-wrap: wrap;
+    }
+
+    .experiencia {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1rem;
+        transition: transform 1.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .experiencia img{
+        height: 100px;
+    }
+    
+    .experiencia-direita {
+        transform: translateX(0);
+    }
+    
+    .experiencia-esquerda {
+        transform: translateX(0);
+    }
+    
+    .experiencia:hover {
+        transform: translateX(0);
+    }
+}
