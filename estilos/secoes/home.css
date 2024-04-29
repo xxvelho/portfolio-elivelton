@@ -1,6 +1,8 @@
 #home{
     height: 100vh;
+    width: 80%;
     display: flex;
+    gap: 4rem;
 }
 
 .esquerda-home{
@@ -10,7 +12,6 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 5%;
 }
 
 .esquerda-home-skills{
@@ -45,13 +46,12 @@
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 5%;
+    justify-content: end;
 }
 
 .direita-home-imagem{
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .esquerda-home a{

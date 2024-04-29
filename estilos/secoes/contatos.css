@@ -1,5 +1,6 @@
 #contatos{
     height: 100vh;
+    width: 80%;
     display: flex;
 }
 
@@ -15,7 +16,7 @@
 .contatos-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 4rem;
     padding: 5%;
 }
 
@@ -30,4 +31,14 @@
 .contatos-icone{
     width: 2rem;
     color: var(--link-color);
+}
+
+.estilo-botao-esquerda{
+    display: flex;
+    justify-content: end;
+}
+
+.estilo-botao-direita{
+    display: flex;
+    justify-content: start;
 }
