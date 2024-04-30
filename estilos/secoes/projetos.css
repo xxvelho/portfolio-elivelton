@@ -15,7 +15,7 @@
 
 .projetos-container{
     display: flex;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .projetos-container-card {
@@ -41,6 +41,7 @@
     left: 0;
     width: 100%;
     transition: opacity 0.3s;
+    text-align: justify;
 }
 
 .botoes {
@@ -53,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .projetos-container-card:hover .descricao-projeto {

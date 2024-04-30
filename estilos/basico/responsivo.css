@@ -30,3 +30,53 @@
         transform: translateX(0);
     }
 }
+
+@media(max-width: 900px){
+    .projetos-dados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+    }
+    .projetos-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 800px){
+    .direita-home{
+        display: none;
+    }
+    .esquerda-home{
+        width: 100%;
+        text-align: center;
+    }
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .esquerda-sobre{
+        width: 100%;
+        
+    }
+    .direita-sobre{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contatos-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
