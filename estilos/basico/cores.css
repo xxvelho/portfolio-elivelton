@@ -3,6 +3,30 @@
     --secondary-color: #883C82;
     --tertiary-color: #B7569A;
     --quaternary-color: #FFBF00;
-    --link-color: #B7569A;
+    --link-color: var(--tertiary-color);
     --text-color: #fff;
+}
+.tema-1{
+    --primary-color: #163020;
+    --secondary-color: #304D30;
+    --tertiary-color: #B6C4B6;
+    --quaternary-color: #EEF0E5;
+    --link-color: var(--tertiary-color);
+    transition: 1s ease-in-out;
+}
+.tema-2{
+    --primary-color: #0C0C0C;
+    --secondary-color: #481E14;
+    --tertiary-color: #9B3922;
+    --quaternary-color: #F2613F;
+    --link-color: var(--tertiary-color);
+    transition: 1s ease-in-out;
+}
+.tema-3{
+    --primary-color: #860A35;
+    --secondary-color: #AF2655;
+    --tertiary-color: #A3B763;
+    --quaternary-color: #F3F3F3;
+    --link-color: var(--tertiary-color);
+    transition: 1s ease-in-out;
 }
