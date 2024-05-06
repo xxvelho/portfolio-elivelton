@@ -1,11 +1,25 @@
-:root{
+.tema-padrao{
     --primary-color: #241023;
     --secondary-color: #883C82;
     --tertiary-color: #B7569A;
     --quaternary-color: #FFBF00;
     --link-color: var(--tertiary-color);
-    --text-color: #fff;
+    transition: 1s ease-in-out;
 }
+
+:root{
+    --primary-color: var(--primary-color);
+    --secondary-color: var(--secondary-color);
+    --tertiary-color: var(--tertiary-color);
+    --quaternary-color: var(--quaternary-color);
+    --link-color: var(--tertiary-color);
+    --text-color: #fff;
+    --tema-1: #163020;
+    --tema-2: #0C0C0C;
+    --tema-3: #860A35;
+    --tema-padrao: #241023;
+}
+
 .tema-1{
     --primary-color: #163020;
     --secondary-color: #304D30;

@@ -1,11 +1,11 @@
 #tema-1{
-    background-color: #163020;
+    background-color: var(--tema-1);
 }
 
 #tema-2{
-    background-color: #0C0C0C;
+    background-color: var(--tema-2);
 }
 
 #tema-3{
-    background-color: #860A35;
+    background-color: var(--tema-3);
 }
