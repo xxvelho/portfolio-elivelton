@@ -1,15 +1,73 @@
-.menu-navegacao{
-    padding-top: 60px;
+.button-burguer-icon {
+    background-color: var(--tertiary-color);
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    z-index: 1;
 }
 
-.menu-navegacao-links{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10%;   
+.button-burguer-icon:hover {
+    background-color: var(--quaternary-color);
 }
 
-.menu-navegacao-links-link>a{
+.button-burguer-icon-img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-navegacao-links-link>a {
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--text-color);
+}
+
+.menu-navegacao {
+    display: none;
+    align-items: center;
+    position: fixed;
+    top: 3.5%;
+    left: 9%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    animation: menu-out 2s forwards;
+}
+
+.menu-navegacao.ativo {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    border-radius: 10%;
+    animation: menu-in 2s forwards;
+}
+
+@keyframes menu-in {
+    0% {
+        display: none;
+        border-radius: 50%;
+        scale: 0.1;
+    }
+    100% {
+        display: flex;
+        border-radius: 10%;
+        scale: 1;
+    }
+}
+
+@keyframes menu-out {
+    0% {
+        display: flex;
+        border-radius: 10%;
+    }
+    100% {
+        display: none;
+        border-radius: 50%;
+    }
 }
