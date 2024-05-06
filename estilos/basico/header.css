@@ -21,43 +21,80 @@
     height: 50px;
 }
 
-.menu-navegacao-links-link>a {
+.menu-navegacao-links-link a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.menu-navegacao-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-navegacao-temas {
+    padding-top: 50px;
+    display: flex;
+
+    gap: 20px;
+}
+
+.menu-navegacao-temas-tema {
+    border: 2px solid red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 .menu-navegacao {
     display: none;
     align-items: center;
     position: fixed;
-    top: 3.5%;
-    left: 9%;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: var(--secondary-color);
+    animation: menu-out .5s ease-in-out;
     border-radius: 50%;
-    animation: menu-out 2s forwards;
+    top: 3.5%;
+    left: 9%;
 }
 
 .menu-navegacao.ativo {
+    display: flex;
+    animation: menu-in 1s ease-in-out;
+    border-radius: 10%;
+    top: 3.5%;
+    left: 9%;
     width: 300px;
     height: 400px;
-    display: flex;
-    border-radius: 10%;
-    animation: menu-in 2s forwards;
+}
+
+.menu-navegacao.ativo li {
+    animation: entrando 3s ease;
+}
+
+.menu-navegacao li {
+    animation: saindo 0.5s ease;
 }
 
 @keyframes menu-in {
     0% {
         display: none;
         border-radius: 50%;
-        scale: 0.1;
+        width: 60px;
+        height: 60px;
+        top: 5%;
+        left: 10%;
     }
+
     100% {
         display: flex;
         border-radius: 10%;
-        scale: 1;
+        width: 300px;
+        height: 400px;
+        top: 3.5%;
+        left: 9%;
     }
 }
 
@@ -65,9 +102,34 @@
     0% {
         display: flex;
         border-radius: 10%;
+        width: 300px;
+        height: 400px;
     }
+
     100% {
         display: none;
         border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        top: 5%;
+        left: 10%;
+    }
+}
+
+@keyframes entrando{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes saindo{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
