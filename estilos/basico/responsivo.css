@@ -79,4 +79,54 @@
         flex-direction: column;
         align-items: center;
     }
+
+    section#sobre{
+        margin-top: 50px;
+    }
+    section#experiencias{
+        margin-top: 150px;
+    }
+    section#projetos{
+        margin-top: 200px;
+    }
+    section#contatos{
+        margin-top: 250px;
+    }
+}
+
+@media(max-width: 560px){
+    section#experiencias{
+        padding-top: 600px;
+    }
+    section#projetos{
+        padding-top: 1000px;
+    }
+    section#contatos{
+        padding:  600px 0 300px 0;
+    }
+    .experiencia{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 400px){
+    h1{
+        font-size: 3em;
+    }
+    
+    h2{
+        font-size: 1em;
+    }
+    
+    h3{
+        font-size: 0.9em;
+    }
+    
+    p{
+        font-size: 1em;
+    }
+    
+    a{
+        font-size: 1em;
+    }
 }
