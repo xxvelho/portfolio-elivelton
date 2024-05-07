@@ -1,3 +1,7 @@
+#tema-padrao{
+    background-color: var(--tema-padrao);
+}
+
 #tema-1{
     background-color: var(--tema-1);
 }
@@ -8,4 +12,8 @@
 
 #tema-3{
     background-color: var(--tema-3);
+}
+
+.invisivel {
+    display: none;
 }
